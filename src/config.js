@@ -1,4 +1,5 @@
 const config = {
+  MAX_ATTACHMENT_SIZE: 5000000,
  /*  s3: {
     REGION: "YOUR_S3_UPLOADS_BUCKET_REGION",
     BUCKET: "YOUR_S3_UPLOADS_BUCKET_NAME",
@@ -12,7 +13,8 @@ const config = {
     USER_POOL_ID: "us-east-1_shEHJc493",
     APP_CLIENT_ID: "og3gq7jdobma086jnlucm3tc3",
     IDENTITY_POOL_ID: "us-east-1:5683fec1-fb4e-4c10-8dde-ab749401bab8",
-  },
+  }
+  
 };
 
 export default config;
